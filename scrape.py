@@ -92,7 +92,7 @@ def clean_body_content(body_content):
         script_or_style.extract()
 
     # Gets all of the new cleaned content and separates it with a new line
-    cleaned_content = soup.get_text(separator="/n")
+    cleaned_content = soup.get_text(separator="\n")
 
     # Removes all blank lines and strips leading/trailing whitespace from the rest
     cleaned_content = "\n".join(
