@@ -182,3 +182,6 @@ cython_debug/
 
 # For Visual Studio Code
 .vscode
+
+# Extra
+notes.txt
