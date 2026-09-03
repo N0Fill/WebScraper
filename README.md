@@ -56,12 +56,12 @@ cd your-repo-name
 Create and activate a virtual environment:
 
 # Windows
-1. python -m venv venv
-2. .\venv\Scripts\activate
+1: python -m venv venv
+2: .\venv\Scripts\activate
 
 # macOS / Linux
-1. python3 -m venv venv
-2. source venv/bin/activate
+1: python3 -m venv venv
+2: source venv/bin/activate
 
 
 Install dependencies:
